@@ -22,7 +22,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
     >
       {label}
     </div>
-   );
-}
+  );
+};
  
 export default MenuItem;

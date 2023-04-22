@@ -1,6 +1,6 @@
 'use client';
 
-import Image from "next/image";
+import Image from 'next/image';
 
 interface AvatarProps {
   src: string | null | undefined;
@@ -15,7 +15,7 @@ const Avatar: React.FC<AvatarProps> = ({ src }) => {
       alt="Avatar" 
       src={src || '/images/placeholder.jpg'}
     />
-   );
-}
+  );
+};
  
 export default Avatar;

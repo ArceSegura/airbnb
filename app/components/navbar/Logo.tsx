@@ -16,7 +16,7 @@ const Logo = () => {
       width="100" 
       alt="Logo" 
     />
-   );
+  );
 };
  
 export default Logo;
