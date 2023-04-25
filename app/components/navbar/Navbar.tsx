@@ -1,11 +1,13 @@
-import Logo from './Logo';
-import Search from './Search';
-import UserMenu from './UserMenu';
-import Container from '../ui/Container';
+'use client';
+
+import Container from '@ui/Container';
+import Logo from '@components/navbar/Logo';
+import Search from '@components/navbar/Search';
+import UserMenu from '@components/navbar/UserMenu';
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full bg-white z-10 shadow-sm">
+    <header className="fixed w-full bg-white z-10 shadow-sm">
       <div className="py-4 border-b-[1px]">
         <Container>
           <div 
@@ -24,7 +26,7 @@ const Navbar = () => {
           </div>
         </Container>
       </div>
-    </div>
+    </header>
   );
 };
 

@@ -1,10 +1,10 @@
 'use client';
 
-interface ContainerProps {
+interface IContainerProps {
   children: React.ReactNode
 };
 
-const Container: React.FC<ContainerProps> = ({ children }) => {
+const Container: React.FC<IContainerProps> = ({ children }) => {
   return ( 
     <div
       className="
